@@ -1,3 +1,83 @@
-h2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+body{
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+
+    padding: 25px 50px 75px 100px;
+    text-align: justify;
+    max-width: 1025px;
+    
+
+    background: url(Images/background4.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
 }
+/* Using ID Selector for header*/
+#myheader{
+    
+    padding: 50px;
+
+    margin: 0 auto;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    background: url(Images/title2.jpg) no-repeat center center fixed;
+    background-size: cover;;
+    
+}
+/* Using Class Selector for all ports */
+.port{
+   
+    background: url(Images/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.Link{
+    font-size: 25px;
+    
+}
+/* Using Element for all paragraph, image,footer */
+p{
+    font-family: cursive;
+
+}
+
+img{
+    width: 100%;
+    max-width: 100%;
+    
+}
+footer{
+    text-align: center;
+    padding: 50px;
+    color: brown;
+    background-image: url(Images/background5.gif)  ;
+}
+figure{
+    
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 22px;
+   
+}
+nav {
+	text-align: center;
+    padding: 0px;
+    font-size: 25px;
+    
+}
+nav li {
+	display: inline-block;
+	margin-right: 1em;
+    font-size: 0.75em;
+    
+}
+h1,h2{
+    margin: 0px;
+    color: blue; 
+}
+
+
