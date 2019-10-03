@@ -10,7 +10,7 @@ body{
     max-width: 1025px;
     
 
-    background: url(c:/launchCode/html-me-something/Images/background4.jpeg) no-repeat center center fixed;
+    background: url(https://github.com/SafnaRafic/html-me-something/tree/master/Images/background4.jpeg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
 }
@@ -24,14 +24,14 @@ body{
     text-align: center;
     font-size: 40px;
     color: red;
-    background: url(Images/title2.jpg) no-repeat center center fixed;
+    background: url(https://github.com/SafnaRafic/html-me-something/tree/master/Images/title2.jpg) no-repeat center center fixed;
     background-size: cover;;
     
 }
 /* Using Class Selector for all ports */
 .port{
    
-    background: url(Images/background.jpg) no-repeat center center fixed;
+    background: url(https://github.com/SafnaRafic/html-me-something/tree/master/Images/background.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 .Link{
@@ -53,7 +53,7 @@ footer{
     text-align: center;
     padding: 50px;
     color: white;
-    background-image: url(Images/background5.gif)  ;
+    background-image: url(https://github.com/SafnaRafic/html-me-something/tree/master/Images/background5.gif)  ;
 }
 figure{
     
