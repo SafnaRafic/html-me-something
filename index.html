@@ -1,82 +1,104 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>"5 Days Cruise Trip</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width"> -->
+    <title>Cruise Vacation</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
-  <body>
-    <script src="script.js"></script>
-    <img src="Images/carnival.JPG" alt ="carnival cruise">
-    <img src="Images/Ship.JPG" alt= "carnival ship" >
+  <body> 
+    <script src="script.js"></script>    
     <header>
-      <h1> Travel- Carnival Cruise</h1>
+      <h1 id="myheader"> <i>Fun Cruise Time in Western Caribbean &#x2600</i></h1>
       <p>
         It was our third cruise, and we all had a great time!   Although it was our third cruise , it was the most memorable one. Since this cruise would be happening just a week before my anniversary, my hubs decided to gift the cruise to us as a special! 
       </p>
-      <img src="Images/ship1.JPG" alt = "ship side viewport">
-      <img src="Images/ship2.JPG" alt="ship down view" >
-      <p> so the cruise was 5 days long, and we ported in two different location.
+      <div style="line-height:50px">
+        <figure>
+          <img src="Images/carnival.JPG" alt ="carnival cruise" >
+          <figcaption>Carnival Cruise</figcaption>
+          <img src="Images/Ship.JPG" alt= "carnival ship" >
+        </figure> 
+      </div>  
+      <!-- <img src="Images/ship1.JPG" alt = "ship side viewport">
+      <img src="Images/ship2.JPG" alt="ship down view" > -->
+      
+      <p> So the cruise was 5 days long, and we ported in two different location.
       </p>
-      <nav>
-        <li>
-          <a href= "#Port1">  Yucatan (Progresso) </a>
-        </li>
-        <li> 
-          <a href= "#Port2"> Cozumel </a>
-        </li>
-      </nav>
+      <ul>
+        <li> Yucatan(progresso)</li>  
+        <li>Cozumel</li>
+      </ul>
+      <div class="Link">
+        <nav>
+          <li>
+            <a href= "#Port1">  Yucatan (Progresso) </a>
+          </li>
+          <li> 
+            <a href= "#Port2"> Cozumel </a>
+          </li>
+        </nav>
+      </div>  
     </header>
     <main>
       <article>
-        
+
         <section>
-          <a href="Port1"></a>
+          <a name="Port1"></a>          
           <h2> Yucatan(Progresso)</h2>
-          <img src="Images/yucatan.jpg" alt="Yucatan image">
-          <p> 
-            
-            So our first stop is pictured above - Yucatan(Progresso). From the boat, this port seemed like a beautiful place! Unlike developed private cruise ports that are common nowadays, Progreso is a real cruise port.It takes you to some of the most famous Mayan ruins. This little port, famous for the longest pier in the world, about 6.5 kilometers, over 4 miles long. We had a Bus tour- from white sandy beaches to historical towns, natural pools and Mayan ruins are memerizing.
-          </p>
-          <figure>
-            <img src="Images/progresso.jpg" alt= "progresso image"><br>
-            <img src="Images/ruins.jpg" alt= "ruins image">
-          </figure>
-          </section>
+          <div class="port">
+            <p>             
+              So our first stop is - Yucatan(Progresso). From the boat, this port seemed like a beautiful place! Unlike developed private cruise ports that are common nowadays, Progreso is a real cruise port.It takes you to some of the most famous Mayan ruins. This little port, famous for the longest pier in the world, about 6.5 kilometers, over 4 miles long. We had a Bus tour- from white sandy beaches to historical towns, natural pools and Mayan ruins are memerizing.
+            </p>
+          </div>
+          <div style="line-height:50px">
+            <figure>
+              <img src="Images/yucatan.jpg" alt="Yucatan image">
+              <figcaption>Yucatan</figcaption>
+              <img src="Images/progresso1.jpeg" alt= "progresso image" >
+              <figcaption>Progresso Bridge</figcaption>
+              <img src="Images/ruins1.jpg" alt= "ruins image">
+              <figcaption>Mayan Ruins</figcaption>
+            </figure>
+          </div>
+        </section>
           
-          <section>
-            <a href="Port2"></a>
-            <h2> Cozumel</h2>
+        <section>            
+          <a name="Port2"></a>
+          <h2> Cozumel</h2>
+          <div class="port">
             <p>
              Day Three we went to one of the favorite locations: Cozumel, Mexico. There are many things to do in Cozumel – Mexico’s largest Caribbean Island. It's like silvery white sandy beaches, swaying palm trees and an azure blue ocean. There are lots of fun activities to do in Cozumel like Dolphin Swim, Thrill and Chill Zip line, Snorkeling Beach, ancient City of Tulum and Chankanaab Beach. ANYWAYS, they are generally a lot of fun !
-             </p>
+            </p>
+          </div>
+          <div style="line-height:50px">
             <figure>
-              <img src="Images/Cozumel.jpg" alt= "Chankanaab Beach Cozumel" ><br>
-              <img src="Images/cozumel1.JPG" alt= "Cozumel" >
+              <img src="Images/Cozumel.jpg" alt= "Chankanaab Beach Cozumel" >
+              <figcaption>Chankanaab Beach,Cozumel</figcaption>
+              <img src="Images/cozumel1.jpg" alt= "Cozumel" >              
             </figure>
-          </section>
+          </div>
+        </section>
          
-          &nbsp 
-          <section>
-            <h2> Fun Day at Sea </h2>
+        &nbsp 
+        <section>            
+          <h2> Fun Day at Sea </h2>
+          <div class="port">
             <p> 
               The rest of the cruise was lovely! If you've never been on a cruise, it's basically a moving island of fun, music and a LOT of food. You can feel better about eating the molten lava cake, or as they call it, "The Carnival Chocolate Melting Cake." I'm pretty sure that's half the reason you should go on a carnival cruise.<br> The cruise director and activity coordinators work hard to make sure no one is bored, even in the middle of the ocean.
             </p>
-            <figure>
-              <img src="Images/Funday1.JPG" alt = "Fun day towel statue" >
-    
-              <img src="Images/water.JPG" alt = "Fun day " >
-
-              
-            </figure>
-          </section>
+          </div>
+          <figure>
+            <img src="Images/Funday1.jpg" alt = "Fun day towel statue" >    
+            <img src="Images/water.jpg" alt = "Fun day " >              
+          </figure>
+        </section>
 
       </article>
     </main>
     
-    <footer>
-      <p> @ Well that's all for now! Until next time.... </p>
+    <footer>      
+      <p> &#169 Well that's all for now! Until next time.... </p>
     </footer>
   </body>
 </html>
